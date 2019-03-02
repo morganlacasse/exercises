@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("images/gradient.jpg");
+    background-repeat: repeat-x;
+
+
+}
+div {
+    position:relative;
+    background-image: url("images/felt.jpg");
+    top: 100px;
+    left: 200px;
+    width: 500px;
+    height: 400px;
+
+}
+#card {
+    position:absolute;
+    left: 200px;
+    top: 100px;
+    z-index: 0;
+
+}
+#king {
+     position:absolute;
+     left: 200px;
+     top: 130px;
+     z-index: 1;
+
+ }
+#queen {
+    position:absolute;
+    left: 200px;
+    top: 160px;
+    z-index: 2;
+
+}
+#jack {
+    position:absolute;
+    left: 200px;
+    top: 190px;
+    z-index: 3;
+
+}
+#ten {
+    position:absolute;
+    left: 200px;
+    top: 220px;
+    z-index: 4;
+
+}
