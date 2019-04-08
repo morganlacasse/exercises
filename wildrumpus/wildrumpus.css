@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page {
+    height: 1200px;
+}
+#page_animals {
+    height: 2700px;
+}
+#page_books {
+    height: 4120px;
+}
+
+
+#page_events {
+    height: 4300px;
+}
+
+#page_about {
+    height: 2320px;
+}
+
+#container {
+    position: relative;
+    width: 1050px;
+    left: 100px;
+    height: 540px;
+}
+#container2 {
+    position: relative;
+    width: 1050px;
+    left: 100px;
+    height: 580px;
+}
+
+
+
+header {
+    width: 1200px;
+    height: 180px;
+    /*background: #cf8fef;*/
+    background: url("img/header.png");
+    margin-bottom: 10px;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 30pt;
+    letter-spacing: 4pt;
+
+
+}
+#header {
+    position:absolute;
+    margin-top: 0;
+
+}
+
+
+#wild {
+    padding-top: 127px;
+    color: black;
+    /*-webkit-text-stroke:2px black;*/
+
+
+}
+
+.icon-bar {
+    width: 80px;
+    position: relative;
+    margin: 10px;
+
+    float: left;
+
+}
+
+.icon-bar2 {
+    width: 180px;
+    position: relative;
+    float: left;
+    margin: 5px 5px 5px -5px;
+
+}
+
+
+
+
+
+
+
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+
+
+}
+
+.icon-bar2 a {
+    display: block;
+    text-align: left;
+    padding: 3px;
+    font-size: 10px;
+    margin-left: 2px;
+
+
+
+}
+
+.icon-bar a:hover {
+    background-color: darkgrey;
+}
+
+.icon-bar2 a:hover {
+    background-color: darkgrey;
+}
+
+
+.active {
+    color: white;
+    background-color: #cf8fef;
+
+}
+
+
+
+#pinkdoor {
+    position: relative;
+    margin: 10px;
+    float: left;
+
+}
+
+
+
+.headermiddle {
+    width: 380px;
+    height: 20px;
+    position: relative;
+    float: left;
+    margin: 20px 10px 10px;
+
+
+}
+#upcoming {
+    position: relative;
+
+
+}
+.upcoming_header {
+    text-align: center;
+
+}
+#upcoming_info {
+    height: 380px;
+}
+#recurringevents {
+    /*background: #52CBD2;*/
+    position: relative;
+    float: left;
+    margin: 10px 10px 20px;
+
+}
+#weekly_header {
+    color: #05C3DE;
+    letter-spacing: 2pt;
+}
+#recurringevents_info {
+    position: relative;
+    margin: 10px;
+    float: left;
+
+
+}
+
+.headerright {
+    width: 180px;
+    height: 80px;
+    position: relative;
+    float: left;
+    margin: 20px 10px 10px;
+
+
+}
+#info {
+    /*background: #52CBD2;*/
+    height: 20px;
+    float: left;
+    position: relative;
+
+
+}
+#info_header {
+    color: #05C3DE;
+    letter-spacing: 2pt;
+
+}
+
+#indiegroup {
+    width: 300px;
+    float: left;
+    position: relative;
+    height: 580px;
+}
+
+#space {
+    width: 100px;
+    position: relative;
+    float: left;
+    min-height: 10px;
+}
+.headerleft {
+    width: 280px;
+    height: 20px;
+    position: relative;
+    float: left;
+    margin: 10px;
+
+
+}
+
+#indie_container {
+    position: relative;
+    float: left;
+    height: 220px;
+    margin-bottom: 20px;
+}
+#indie {
+    /*background: #52CBD2;*/
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+
+}
+#indie_header {
+    color: #05C3DE;
+    letter-spacing: 2pt;
+
+}
+#indiekids_container {
+    position: relative;
+    float: left;
+
+}
+#indie_info {
+    position: relative;
+    float: left;
+    margin: 10px;
+
+
+}
+
+#indiekids {
+    /*background: #52CBD2;*/
+    position: relative;
+    float: left;
+    margin: 10px;
+
+
+
+}
+#indiekids_header {
+    color: #05C3DE;
+    letter-spacing: 2pt;
+
+
+}
+#indiekids_info {
+    position: relative;
+    float: left;
+    margin: 20px 10px 10px;
+
+
+}
+
+
+img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+p {
+    font-size: 10pt;
+    font-family: 'Rubik', sans-serif;
+
+}
+li {
+    font-size: 10pt;
+    font-family: 'Rubik', sans-serif;
+
+}
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 28pt;
+
+
+}
+h3 {
+    font-size: 15pt;
+    font-family: 'Rubik', sans-serif;
+}
+h4 {
+    font-size: 10pt;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+
+
+
+}
+
+
+footer {
+
+
+    width: 1200px;
+    height: 180px;
+    position: relative;
+
+    /*background: #cf8fef;*/
+    background: url("img/header.png");
+
+}
+.footer {
+    position: relative;
+    float: left;
+    width: 180px;
+    margin: 20px;
+}
+.footer2 {
+
+    width: 1200px;
+    height: 60px;
+    position: relative;
+
+    /*background: #cf8fef;*/
+    background-color: #a071b7;
+
+
+}
+#container_footer {
+    margin-left: 260px;
+    min-height: 10px;
+}
+
+#meettheanimals {
+     position: relative;
+     float: left;
+     left: 300px;
+     color: #05C3DE;
+     width: 580px;
+
+
+ }
+#books {
+    position: relative;
+    float: left;
+    left: 300px;
+    color: #05C3DE;
+    width: 580px;
+
+
+}
+#aboutus {
+    position: relative;
+    float: left;
+    left: 300px;
+    color: #05C3DE;
+    width: 580px;
+}
+
+.animal_sections {
+    position: relative;
+    float: left;
+    width: 800px;
+}
+.book_sections {
+    position: relative;
+    float: left;
+    width: 800px;
+
+}
+
+
+#meettheanimals_info {
+    position: relative;
+    float: left;
+    width: 880px;
+    height: 800px;
+}
+#books_info {
+    position: relative;
+    float: left;
+    width: 880px;
+    height: 800px;
+}
+#aboutus_info {
+    position: relative;
+    float: left;
+    width: 880px;
+    height: 800px;
+}
+.about_sections {
+    position: relative;
+    float: left;
+    width: 800px;
+}
+
+.animal_pic {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.h_animals {
+    margin-top: 10px;
+
+}
+.book_pic {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+
+}
+
+
+
+#map {
+    width: 280px;
+    height: 280px;
+}
+
+.img_about {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    float: left;
+}
+
+a {
+    color: #5c068c;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
